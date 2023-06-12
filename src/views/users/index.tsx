@@ -35,7 +35,7 @@ const Users = () => {
       ) : null}
       {data?.length === 0 ? (
         <HStack justifyContent="center">
-          <Text>No Games Found!!</Text>
+          <Text>No Users Found!!</Text>
         </HStack>
       ) : null}
 
@@ -49,7 +49,7 @@ const Users = () => {
               <Th>Phone Number</Th>
               <Th>Role</Th>
               <Th>Status</Th>
-              <Th>Create At</Th>
+              <Th>Created At</Th>
             </Tr>
           </Thead>
           <Tbody>

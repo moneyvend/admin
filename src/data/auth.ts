@@ -17,7 +17,7 @@ class Auth {
 
   public async login(credentials: LoginBody): Promise<any> {
     try {
-        if(credentials.usr === 'admin' && credentials.pwd === 'admin'){
+        if(credentials.usr === 'isaac@monievend.com' && credentials.pwd === 'yhYhVRHxYb'){
             return true;
         }
     } catch (error) {

@@ -5,7 +5,9 @@ import {
   Login,
   HomePage,
   DashboardPage,
-  UsersPage
+  UsersPage,
+  WaitlistPage,
+  NewsletterPage
   
 } from "./views";
 import { Text } from "@chakra-ui/react";
@@ -23,11 +25,11 @@ const AppRouter = (): React.JSX.Element => {
       />
        <Route
         path={AppRoutes.NEWSLETTER}
-        element={<RouteWithLayout component={DashboardPage} layout={MainLayout} />}
+        element={<RouteWithLayout component={NewsletterPage} layout={MainLayout} />}
       />
        <Route
         path={AppRoutes.WAITLIST}
-        element={<RouteWithLayout component={DashboardPage} layout={MainLayout} />}
+        element={<RouteWithLayout component={WaitlistPage} layout={MainLayout} />}
       />
        <Route
         path={AppRoutes.USERS}
