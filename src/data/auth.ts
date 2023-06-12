@@ -4,6 +4,7 @@ export interface LoginBody {
   pwd: string;
 }
 
+/* eslint-disable import/no-anonymous-default-export */
 export interface RegisterBody {
   email: string;
   full_name: string;
