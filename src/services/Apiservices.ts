@@ -4,7 +4,7 @@ export const ApiService = axios.create({
   timeout: 19000,
   headers:{
     "Content-Type": "application/json",
-    "Authorization": "jwt eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiZnVsbG5hbWUiOiJOeW9ueWludG9ubyBJc2FhYyIsImVtYWlsIjoiaXNhYWNwaXR3YTI1NisyQGdtYWlsLmNvbSIsInN0YXR1cyI6IkFjdGl2ZSIsImVtYWlsVmVyaWZpZWQiOnRydWUsImlhdCI6MTY4NjYwNDEyMywiZXhwIjoxNjg2NjExMzIzfQ.TpRZcuK1dcfTb1O2xMZFlQ_ODSt_tLTY2IrMET4Pgy0",
+    "Authorization": "jwt eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiZnVsbG5hbWUiOiJOeW9ueWludG9ubyBJc2FhYyIsImVtYWlsIjoiaXNhYWNwaXR3YTI1NisyQGdtYWlsLmNvbSIsInN0YXR1cyI6IkFjdGl2ZSIsImVtYWlsVmVyaWZpZWQiOnRydWUsImlhdCI6MTY4ODMxNjY2NywiZXhwIjoxNjg4MzIzODY3fQ.2Ucczu1lERjBQbDoZCwE1bLScdgJUUve1U2peqGL4vw",
   }
 });
 
